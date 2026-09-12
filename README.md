@@ -58,9 +58,9 @@ The final step is the "Success Write." Only after the sending API returns a succ
 | **Audit** | `log.ts` | State Persistence | Successful Delivery |
 
 ## Project Structure
-- `/src/lib/campaigns_automation/engine.ts`: Master orchestrator.
-- `/src/lib/campaigns_automation/scheduler.ts`: Timing and restaurant filtering.
-- `/src/lib/campaigns_automation/trigger.ts`: Customer event matching.
-- `/src/lib/campaigns_automation/condition.ts`: Global and individual validation.
-- `/src/lib/campaigns_automation/config.ts`: Campaign template configuration.
-- `/src/lib/campaigns_automation/log.ts`: Automation history and anti-spam.
+- `/engine/engine.ts`: Master orchestrator.
+- `/engine/scheduler.ts`: Timing and restaurant filtering.
+- `/engine/trigger.ts`: Customer event matching.
+- `/engine/condition.ts`: Global and individual validation.
+- `/engine/config.ts`: Campaign template configuration.
+- `/engine/log.ts`: Automation history and anti-spam.
